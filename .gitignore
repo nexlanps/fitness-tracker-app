@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Environment variables
+.env
+.env.local
+
+# Database
+*.db
+*.sqlite
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node.js / Angular
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.angular/
+dist/
+tmp/
+
+# Electron
+desktop/dist/
+desktop/out/
+
+# Android / Capacitor
+mobile/android/
+mobile/ios/
+*.apk
+*.aab
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
