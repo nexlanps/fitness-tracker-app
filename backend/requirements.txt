@@ -1,0 +1,24 @@
+# Web Framework
+fastapi==0.115.0
+uvicorn[standard]==0.32.0
+
+# Database
+sqlalchemy==2.0.35
+psycopg[binary]==3.2.3
+alembic==1.13.3
+
+# Environment Variables
+python-dotenv==1.0.1
+
+# Data Validation
+pydantic==2.9.2
+pydantic-settings==2.6.0
+
+# CORS (für Frontend-Kommunikation)
+python-multipart==0.0.12
+
+# Password Hashing (für später)
+passlib[bcrypt]==1.7.4
+
+# JWT Tokens (für später)
+python-jose[cryptography]==3.3.0
